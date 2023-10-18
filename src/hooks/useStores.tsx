@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { storeContext } from '../mobx/store-provider';
+import { storeContext } from '../mobx/store-context';
 
 export default function useStores() {
   const context = useContext(storeContext);

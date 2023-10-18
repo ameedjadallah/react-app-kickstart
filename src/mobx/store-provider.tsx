@@ -1,8 +1,8 @@
-import { createContext, useState } from 'react';
+import {  useState } from 'react';
 import RootStore, { IRootStore } from './root-store';
 import initAxios from '../config/axios';
+import { storeContext } from './store-context';
 
-export const storeContext = createContext<IRootStore>({} as IRootStore);
 
 interface IStoreProviderProps {
   children: React.ReactNode;
