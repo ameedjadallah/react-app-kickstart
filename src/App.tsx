@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-import LoginScreen from './pages/Login';
+import LoginScreen from './auth/Login';
 import Layout from './layout';
-
-import './App.css';
+import './App.scss';
 import './assets/styles/main.scss'
 
 function App() {
